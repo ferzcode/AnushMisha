@@ -12,6 +12,10 @@
 # print(a / b)
 # print(a // b)
 
+# x = 16
+#
+# print((x**0.5).is_integer())
+
 c = 0
 for s in open('Задание №3.txt'):
     a = [int(x) for x in s.split()]
