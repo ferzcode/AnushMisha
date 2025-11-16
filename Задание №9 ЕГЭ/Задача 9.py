@@ -7,19 +7,19 @@
 #
 # В ответе запишите только число.
 
-c = 0
-for s in open('Задание №4.txt'):
-    a = [int(x) for x in s.split()]
-    chet = [j for j in a if j % 2 != 0]
-    nechet = [j for j in a if j % 2 != 0]
-
-    sumchet = sum(chet)
-    sumnechet = sum(nechet)
-
-    pow2 = [j for j in a if a.count(j) == 2] # len() == 2
-    pow1 = [j for j in a if a.count(j) == 1] # len() == 3
-    #  1  +  0  == 1
-    if (sumnechet > sumchet) + (len(pow2) == 2 and len(pow1) == 3) == 1:
-        c += 1
-
-print(c)
+# c = 0
+# for s in open('Задание №4.txt'):
+#     a = [int(x) for x in s.split()]
+#     chet = [j for j in a if j % 2 != 0]
+#     nechet = [j for j in a if j % 2 != 0]
+#
+#     sumchet = sum(chet)
+#     sumnechet = sum(nechet)
+#
+#     pow2 = [j for j in a if a.count(j) == 2] # len() == 2
+#     pow1 = [j for j in a if a.count(j) == 1] # len() == 3
+#     #  1  +  0  == 1
+#     if (sumnechet > sumchet) + (len(pow2) == 2 and len(pow1) == 3) == 1:
+#         c += 1
+#
+# print(c)
