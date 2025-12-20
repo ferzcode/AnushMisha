@@ -1,11 +1,11 @@
 from math import *
 
-# def plot(cl):
-#     m = []
-#     for p in cl:
-#         k = len([p1 for p1 in cl if dist(p,p1)<=1])
-#         m.append(k)
-#     return sum(m)/len(m)
+def plot(cl):
+    m = []
+    for p in cl:
+        k = len([p1 for p1 in cl if dist(p,p1)<=1])
+        m.append(k)
+    return sum(m)/len(m)
 
 def plotnost(kl):
     m = [] # Количество
